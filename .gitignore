@@ -127,3 +127,35 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.bankruptcy/pyvenv.cfg
+.bankruptcy/Scripts/activate
+.bankruptcy/Scripts/activate.bat
+.bankruptcy/Scripts/Activate.ps1
+.bankruptcy/Scripts/deactivate.bat
+.bankruptcy/Scripts/easy_install-3.9.exe
+.bankruptcy/Scripts/easy_install.exe
+.bankruptcy/Scripts/iptest.exe
+.bankruptcy/Scripts/iptest3.exe
+.bankruptcy/Scripts/ipython.exe
+.bankruptcy/Scripts/ipython3.exe
+.bankruptcy/Scripts/jupyter-kernel.exe
+.bankruptcy/Scripts/jupyter-kernelspec.exe
+.bankruptcy/Scripts/jupyter-migrate.exe
+.bankruptcy/Scripts/jupyter-run.exe
+.bankruptcy/Scripts/jupyter-troubleshoot.exe
+.bankruptcy/Scripts/jupyter.exe
+.bankruptcy/Scripts/pip.exe
+.bankruptcy/Scripts/pip3.9.exe
+.bankruptcy/Scripts/pip3.exe
+.bankruptcy/Scripts/pygmentize.exe
+.bankruptcy/Scripts/python.exe
+.bankruptcy/Scripts/pythonw.exe
+.bankruptcy/Scripts/pywin32_postinstall.py
+.bankruptcy/Scripts/pywin32_testall.py
+.bankruptcy/share/jupyter/kernels/python3/kernel.json
+.bankruptcy/share/jupyter/kernels/python3/logo-32x32.png
+.bankruptcy/share/jupyter/kernels/python3/logo-64x64.png
+.bankruptcy/share/man/man1/ipython.1.gz
+.bankruptcy/Scripts/f2py.exe
+.bankruptcy/Scripts/wheel.exe
+data/data.csv
