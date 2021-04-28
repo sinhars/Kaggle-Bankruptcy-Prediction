@@ -159,3 +159,4 @@ dmypy.json
 .bankruptcy/Scripts/f2py.exe
 .bankruptcy/Scripts/wheel.exe
 data/data.csv
+.bankruptcy/xgboost/vcomp140.dll
