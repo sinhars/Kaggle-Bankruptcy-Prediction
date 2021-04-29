@@ -14,4 +14,4 @@ class Modelling():
         confMatrix = self.metrics.confusion_matrix(trueVals, preds, normalize="true")
         report = self.metrics.classification_report(trueVals, preds, target_names=targetNames)
         print(report)
-        self.vis.plotConfusionMatrix(confMatrix, figSize=figSize, plotTitle=plotTitle)
+        self.vis.plotConfusionMatrix(confMatrix, labels=targetNames, figSize=figSize, plotTitle=plotTitle)

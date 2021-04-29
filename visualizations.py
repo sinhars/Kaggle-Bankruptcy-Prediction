@@ -8,7 +8,7 @@ class Visualizations():
         self.plt = self.mpl.pyplot
         self.sns.set_theme(style=theme)
         self.fontSize = fontSize
-        self.cmap = self.sns.diverging_palette(230, 20, as_cmap=True)
+        self.cmap = self.sns.diverging_palette(10, 250, s=90, l=33, as_cmap=True)
 
     #Method to plot counts/ histogram
     def plotCounts(self, xData, figSize, plotTitle):
@@ -28,7 +28,7 @@ class Visualizations():
         ax.set(xscale="log")
         self.plt.show()
 
-    def plotCorrMatrix(self, data, figSize, plotTitle):
+    def plotCorrelationMatrix(self, data, figSize, plotTitle):
         corrMatrix = data.corr()
         maskMatrix = self.np.triu(self.np.ones_like(corrMatrix, dtype=bool))
         self.plt.figure(figsize=figSize)
@@ -36,8 +36,8 @@ class Visualizations():
         self.plt.title(plotTitle, fontsize=self.fontSize)
         self.plt.show()
     
-    def plotConfusionMatrix(self, data, figSize, plotTitle):
+    def plotConfusionMatrix(self, data, labels, figSize, plotTitle):
         self.plt.figure(figsize=figSize)
-        self.sns.heatmap(data, cmap=self.cmap, annot=True, fmt=".1%")
+        self.sns.heatmap(data, cmap=self.cmap, xticklabels=labels, yticklabels=labels, annot=True, fmt=".1%")
         self.plt.title(plotTitle, fontsize=self.fontSize)
         self.plt.show()
