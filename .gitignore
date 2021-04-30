@@ -160,3 +160,4 @@ dmypy.json
 .bankruptcy/Scripts/wheel.exe
 data/data.csv
 .bankruptcy/xgboost/vcomp140.dll
+data/preprocData.pkl

@@ -1,3 +1,4 @@
+
 #Plotter class for various data exploration techniques
 class Visualizations():
     #Class Constructor
